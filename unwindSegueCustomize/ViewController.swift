@@ -19,6 +19,21 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func returnFirstView(segue: UIStoryboardSegue) {
+        print("\(#function) is called!")
+//        if (segue.identifier == "returnFirstView") {
+//            print("HIIIIIIIIIIIIII")
+//            let transition: CATransition = CATransition()
+//            transition.duration = 1.0
+//            transition.type = kCATransitionPush
+//            transition.subtype = kCATransitionFromRight
+//            
+//            self.presentedViewController?.view.layer.addAnimation(transition, forKey: kCATransition)
+//            
+//        }
+        
+    }
 
 
 }
